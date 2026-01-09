@@ -1,9 +1,10 @@
 name: CI - Test and Build
 
-# on:
-#   push:
-#     branches:
-#       - develop"
+on:
+  push:
+    branches:
+    - develop
+    - feature/*
 
 jobs:
   ci:
